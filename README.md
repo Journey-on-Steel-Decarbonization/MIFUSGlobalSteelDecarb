@@ -1,2 +1,10 @@
-# MIFUSGlobalSteelDecarb
-MIFUS (Mini Instant Fall University School) as a Journey on Steel Decarbonization
+# About MIFUS (Mini Instant Fall University School)
+
+MIFUS (Mini Instant Fall University School) as a Journey on Steel Decarbonization is an initiative by Fabio Miani, professor at University of Udine. The details of the initiative can be seen [his profile on LinkedIn](https://www.linkedin.com/in/fabio-miani-7a565a5/) and in the posts below (just a sample of recent work):
+
+- [Announcement of the initiative](https://www.linkedin.com/posts/fabio-miani-7a565a5_a-one-minute-sort-of-video-invitation-to-activity-7394590493357187073-F-Vb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAD8dO0BD5hlCm34Xv-cQtTGTs008merWxE)
+- [Apresentação completa em LaTeX/Beamer para o Overleaf sobre a descarbonização da siderurgia brasileira, totalmente em português](https://www.linkedin.com/posts/fabio-miani-7a565a5_claude-llm-and-fabio-miani-activity-7395200536402104320-BoEk?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
+- [Brazil's Strategic Position in Global Steel Decarbonization](https://www.linkedin.com/posts/fabio-miani-7a565a5_brasil-steel-decarbonization-policy-activity-7395318038427852801-mVEQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
+- [Mexico’s Strategic Position in Global Steel Decarbonization](https://www.linkedin.com/posts/fabio-miani-7a565a5_mexicos-position-in-global-steel-decarboniation-activity-7395350187000369152-6kx-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
+- [Details on the query used to interact with LLMs](https://www.linkedin.com/posts/fabio-miani-7a565a5_steel-decarbonization-in-germany-eu-leader-activity-7395700301082796032-vj5W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
+- [MIFUS extending Considerations about Germany](https://www.linkedin.com/posts/fabio-miani-7a565a5_germany-and-austria-mifus-activity-7395832466030198784-3eT8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
