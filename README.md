@@ -8,3 +8,11 @@ MIFUS (Mini Instant Fall University School) as a Journey on Steel Decarbonizatio
 - [Mexico’s Strategic Position in Global Steel Decarbonization](https://www.linkedin.com/posts/fabio-miani-7a565a5_mexicos-position-in-global-steel-decarboniation-activity-7395350187000369152-6kx-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
 - [Details on the query used to interact with LLMs](https://www.linkedin.com/posts/fabio-miani-7a565a5_steel-decarbonization-in-germany-eu-leader-activity-7395700301082796032-vj5W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
 - [MIFUS extending Considerations about Germany](https://www.linkedin.com/posts/fabio-miani-7a565a5_germany-and-austria-mifus-activity-7395832466030198784-3eT8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAY52UwBb01pVF3N-E_Bb-Ye09GZMUdyOXM)
+
+# Files in PDFs folder
+
+Files that are located in `PDFs` folder are static output of TeX / Overleaf files, exported from LLMs
+
+# Files in ZIPs folder
+
+Files that are located in `ZIPs` folder are source TeX / Overleaf files. Setup to build and generate PDFs from them are still pending to do.
