@@ -215,4 +215,5 @@ __marimo__/
 *.fls
 *.out
 *.run.xml
-*synctex.gz
+*.toc
+*.synctex.gz
