@@ -1,0 +1,18 @@
+[project]
+name = "mifusglobalsteeldecarb"
+version = "0.1.0"
+description = "Mini Instant Fall University School, created by Fabio Miani with some help by Dickson Souza, in Git / GitHub / LaTeX setup"
+authors = [
+    {name = "Dickson Souza",email = "36424026+disouzam@users.noreply.github.com"},
+    {name = "Fabio Miani",email = "86612283+fabiomiani1@users.noreply.github.com"},
+]
+license = {text = "BSD 3-Clause License"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
