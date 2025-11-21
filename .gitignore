@@ -209,3 +209,10 @@ __marimo__/
 # TeX support files
 *synctex.gz
 
+*.aux
+*.bbl
+*.bcf
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
