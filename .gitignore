@@ -207,12 +207,12 @@ marimo/_lsp/
 __marimo__/
 
 # TeX support files
-*synctex.gz
-
 *.aux
 *.bbl
 *.bcf
+*.blg
 *.fdb_latexmk
 *.fls
 *.out
 *.run.xml
+*synctex.gz
