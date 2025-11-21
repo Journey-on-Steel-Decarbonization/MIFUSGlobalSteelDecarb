@@ -9,10 +9,12 @@ authors = [
 license = {text = "BSD 3-Clause License"}
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-]
-
+dynamic = [ "dependencies" ]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+
+[tool.poetry.group.dev.dependencies]
