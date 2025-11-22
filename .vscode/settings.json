@@ -1,5 +1,6 @@
 {
     "editor.trimAutoWhitespace": true,
+    "files.eol": "\n",
     "editor.formatOnSave": true,
     "[python]": {
         "editor.formatOnSave": true,
