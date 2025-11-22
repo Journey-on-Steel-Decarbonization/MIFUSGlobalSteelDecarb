@@ -19,3 +19,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.14.6"
+
+[tool.ruff]
+line-length = 100
+lint.select = ["E", "F", "W"]
