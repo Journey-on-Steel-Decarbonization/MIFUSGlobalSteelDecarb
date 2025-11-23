@@ -15,6 +15,8 @@ def remove_auxiliary_tex_files() -> None:
     file_extensions = get_auxiliary_tex_file_extensions()
     root_folder = get_repo_root_folder()
 
+    files_removed = 0
+
     for directory, _, filenames in os.walk(root_folder):
         excluded_dirs = [".git", ".venv", ".ruff_cache"]
         excluded_dirs_flag = [(e in directory) for e in excluded_dirs]
@@ -27,6 +29,8 @@ def remove_auxiliary_tex_files() -> None:
             full_file_name = os.path.join(directory, filename)
             if any(extension_to_exclude):
                 os.remove(full_file_name)
+                files_removed += 1
+                print(f'{files_removed} - Removed file "{full_file_name}"')
 
 
 def get_auxiliary_tex_file_extensions() -> list[str]:
