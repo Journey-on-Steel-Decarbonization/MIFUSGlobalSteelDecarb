@@ -9,10 +9,13 @@ from typing import Literal
 
 
 def remove_auxiliary_tex_files() -> None:
+    """
+    Remove auxiliary files generated during compilation of TeX files
+    """
     file_extensions = get_auxiliary_tex_file_extensions()
     root_folder = get_repo_root_folder()
 
-    for directory, dirnames, filenames in os.walk(root_folder):
+    for directory, _, filenames in os.walk(root_folder):
         excluded_dirs = [".git", ".venv", ".ruff_cache"]
         excluded_dirs_flag = [(e in directory) for e in excluded_dirs]
         if any(excluded_dirs_flag):
@@ -86,15 +89,18 @@ def get_repo_root_folder() -> Path | Literal[""]:
 
 
 def get_current_folder() -> str:
+    """
+    Get current folder where this file is located
+    """
     filename = inspect.getframeinfo(inspect.currentframe()).filename
     path = os.path.dirname(os.path.abspath(filename))
     return path
 
 
 def main() -> None:
-    current_folder = get_current_folder()
-    extensions_to_delete = get_auxiliary_tex_file_extensions()
-    print(extensions_to_delete)
+    """
+    Entry point
+    """
     remove_auxiliary_tex_files()
 
 
