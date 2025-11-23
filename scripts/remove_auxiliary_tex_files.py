@@ -5,9 +5,10 @@ Script to remove TeX auxiliary files
 import inspect
 import os.path
 from pathlib import Path
+from typing import Literal
 
 
-def remove_auxiliary_tex_files():
+def remove_auxiliary_tex_files() -> None:
     file_extensions = get_auxiliary_tex_file_extensions()
     root_folder = get_repo_root_folder()
 
@@ -58,7 +59,7 @@ def get_auxiliary_tex_file_extensions() -> list[str]:
     return file_extensions
 
 
-def get_repo_root_folder():
+def get_repo_root_folder() -> Path | Literal[""]:
     """
     Get root folder of repository
     """
@@ -90,7 +91,7 @@ def get_current_folder() -> str:
     return path
 
 
-def main():
+def main() -> None:
     current_folder = get_current_folder()
     extensions_to_delete = get_auxiliary_tex_file_extensions()
     print(extensions_to_delete)
